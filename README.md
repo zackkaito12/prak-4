@@ -12,7 +12,6 @@ def ganti_vokal(teks):
 def main():
     print("Masukkan teks lirik (3 kalimat):")
     lirik = input()
-    # Memisahkan lirik menjadi kalimat-kalimat
     kalimat = lirik.split('. ')
     lirik_baru = ''
     for kal in kalimat:
@@ -22,3 +21,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
